@@ -1,0 +1,429 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "requestedTheme": "dark",
+    "initialRows": 25,
+    "initialCols": 80,
+    "alwaysShowTabs": true,
+    "showTerminalTitleInTitlebar": true,
+    "experimental_showTabsInTitlebar": true,
+    "showTabsInTitlebar": true,
+    "profiles": [
+        {
+            "startingDirectory": "C:/Users/LENOVO/Desktop",
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "Command Prompt",
+            "colorScheme": "Dracula",
+            "historySize": 9001,
+            "snapOnInput": true,
+            // "cursorColor": "#00FF00",
+            "cursorColor": "#ff00d9",
+            "cursorHeight": 15,
+            "cursorShape": "vintage",
+            "commandline": "cmd.exe",
+            "fontFace": "Meslo LG M NF",
+            "fontSize": 15,
+            "acrylicOpacity": 0.9,
+            "useAcrylic": true,
+            "closeOnExit": false,
+            "padding": "0, 0, 0, 0"
+        },
+        {
+            "startingDirectory": "C:/Users/LENOVO/Desktop",
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "hidden": false,
+            "name": "PowerShell",
+            "colorScheme": "Dracula",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#EF2929",
+            "cursorShape": "filledBox",
+            "fontFace": "MesloLGM NF",
+            "fontSize": 14,
+            "acrylicOpacity": 0.9,
+            "useAcrylic": true,
+            "closeOnExit": false,
+            "padding": "0, 0, 0, 0",
+            "source": "Windows.Terminal.PowershellCore"
+        },
+        {
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "colorScheme": "Dracula",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "fontFace": "Meslo LG M NF",
+            "fontSize": 15,
+            "acrylicOpacity": 0.9,
+            "useAcrylic": true,
+            "closeOnExit": false,
+            "padding": "0, 0, 0, 0",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "startingDirectory": "C:/Users/LENOVO/Desktop",
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows Powershell",
+            "hidden": true,
+            // "background": "#012456",
+            "colorScheme": "Dracula",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "commandline": "powershell.exe",
+            "fontFace": "Meslo LG M NF",
+            "fontSize": 13,
+            "acrylicOpacity": 0.75,
+            "useAcrylic": true,
+            "closeOnExit": false,
+            "padding": "0, 0, 0, 0"
+        },
+        {
+            "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
+            "hidden": true,
+            "name": "Legacy",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+        // ,
+        // {
+        //     "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        //     "hidden": false,
+        //     "name": "PowerShell",
+        //     "source": "Windows.Terminal.PowershellCore"
+        // }
+    ],
+    "schemes": [
+        {
+            "name": "Dracula",
+            "cursorColor": "#F8F8F2",
+            "selectionBackground": "#44475A",
+            "background": "#282A36",
+            "foreground": "#F8F8F2",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "cyan": "#8BE9FD",
+            "green": "#50FA7B",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5"
+        },
+        {
+            "name": "Campbell",
+            "foreground": "#F2F2F2",
+            // "background": "#0C0C0C",
+            "background": "#002e38",
+            "colors": [
+                "#0C0C0C",
+                "#C50F1F",
+                "#13A10E",
+                "#C19C00",
+                "#0037DA",
+                "#881798",
+                "#3A96DD",
+                "#CCCCCC",
+                "#767676",
+                "#E74856",
+                "#16C60C",
+                "#F9F1A5",
+                "#3B78FF",
+                "#B4009E",
+                "#61D6D6",
+                "#F2F2F2"
+            ]
+        },
+        {
+            "name": "Solarized Dark",
+            "foreground": "#FDF6E3",
+            "background": "#073642",
+            "colors": [
+                "#073642",
+                "#D30102",
+                "#859900",
+                "#B58900",
+                "#268BD2",
+                "#D33682",
+                "#2AA198",
+                "#EEE8D5",
+                "#002B36",
+                "#CB4B16",
+                "#586E75",
+                "#657B83",
+                "#839496",
+                "#6C71C4",
+                "#93A1A1",
+                "#FDF6E3"
+            ]
+        },
+        {
+            "name": "Solarized Light",
+            "foreground": "#073642",
+            "background": "#FDF6E3",
+            "colors": [
+                "#073642",
+                "#D30102",
+                "#859900",
+                "#B58900",
+                "#268BD2",
+                "#D33682",
+                "#2AA198",
+                "#EEE8D5",
+                "#002B36",
+                "#CB4B16",
+                "#586E75",
+                "#657B83",
+                "#839496",
+                "#6C71C4",
+                "#93A1A1",
+                "#FDF6E3"
+            ]
+        },
+        {
+            "name": "Ubuntu",
+            "foreground": "#EEEEEC",
+            "background": "#2C001E",
+            "colors": [
+                "#EEEEEC",
+                "#16C60C",
+                "#729FCF",
+                "#B58900",
+                "#268BD2",
+                "#D33682",
+                "#2AA198",
+                "#EEE8D5",
+                "#002B36",
+                "#CB4B16",
+                "#586E75",
+                "#657B83",
+                "#839496",
+                "#6C71C4",
+                "#93A1A1",
+                "#FDF6E3"
+            ]
+        },
+        {
+            "name": "UbuntuLegit",
+            "foreground": "#EEEEEE",
+            "background": "#2C001E",
+            "colors": [
+                "#4E9A06",
+                "#CC0000",
+                "#300A24",
+                "#C4A000",
+                "#3465A4",
+                "#75507B",
+                "#06989A",
+                "#D3D7CF",
+                "#555753",
+                "#EF2929",
+                "#8AE234",
+                "#FCE94F",
+                "#729FCF",
+                "#AD7FA8",
+                "#34E2E2",
+                "#EEEEEE"
+            ]
+        }
+    ],
+    "keybindings": [
+        {
+            "command": "closeTab",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": "newTabProfile0",
+            "keys": [
+                "ctrl+shift+1"
+            ]
+        },
+        {
+            "command": "newTabProfile1",
+            "keys": [
+                "ctrl+shift+2"
+            ]
+        },
+        {
+            "command": "newTabProfile2",
+            "keys": [
+                "ctrl+shift+3"
+            ]
+        },
+        {
+            "command": "newTabProfile3",
+            "keys": [
+                "ctrl+shift+4"
+            ]
+        },
+        {
+            "command": "newTabProfile4",
+            "keys": [
+                "ctrl+shift+5"
+            ]
+        },
+        {
+            "command": "newTabProfile5",
+            "keys": [
+                "ctrl+shift+6"
+            ]
+        },
+        {
+            "command": "newTabProfile6",
+            "keys": [
+                "ctrl+shift+7"
+            ]
+        },
+        {
+            "command": "newTabProfile7",
+            "keys": [
+                "ctrl+shift+8"
+            ]
+        },
+        {
+            "command": "newTabProfile8",
+            "keys": [
+                "ctrl+shift+9"
+            ]
+        },
+        {
+            "command": "nextTab",
+            "keys": [
+                "ctrl+tab"
+            ]
+        },
+        {
+            "command": "openSettings",
+            "keys": [
+                "ctrl+,"
+            ]
+        },
+        {
+            "command": "prevTab",
+            "keys": [
+                "ctrl+shift+tab"
+            ]
+        },
+        {
+            "command": "scrollDown",
+            "keys": [
+                "ctrl+shift+down"
+            ]
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": [
+                "ctrl+shift+pgdn"
+            ]
+        },
+        {
+            "command": "scrollUp",
+            "keys": [
+                "ctrl+shift+up"
+            ]
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": [
+                "ctrl+shift+pgup"
+            ]
+        },
+        {
+            "command": "switchToTab0",
+            "keys": [
+                "alt+1"
+            ]
+        },
+        {
+            "command": "switchToTab1",
+            "keys": [
+                "alt+2"
+            ]
+        },
+        {
+            "command": "switchToTab2",
+            "keys": [
+                "alt+3"
+            ]
+        },
+        {
+            "command": "switchToTab3",
+            "keys": [
+                "alt+4"
+            ]
+        },
+        {
+            "command": "switchToTab4",
+            "keys": [
+                "alt+5"
+            ]
+        },
+        {
+            "command": "switchToTab5",
+            "keys": [
+                "alt+6"
+            ]
+        },
+        {
+            "command": "switchToTab6",
+            "keys": [
+                "alt+7"
+            ]
+        },
+        {
+            "command": "switchToTab7",
+            "keys": [
+                "alt+8"
+            ]
+        },
+        {
+            "command": "switchToTab8",
+            "keys": [
+                "alt+9"
+            ]
+        },
+        {
+            "keys": [
+                "ctrl+shift+d"
+            ],
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            }
+        }
+    ]
+    /*
+    You can set it to the following cursors:
+
+        bar
+        emptyBox
+        filledBox
+        underScore
+        vintage
+    */
+}

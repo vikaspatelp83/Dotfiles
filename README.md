@@ -1,5 +1,8 @@
 # MY CUSTOMIZATIONS FOR WINDOWS 10
 
+![Windows Terminal running Powershell](Images/windows_terminal.png)
+
+
 ## Fonts for Terminal
 |                        |
 | :--------------------- |

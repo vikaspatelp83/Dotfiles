@@ -1,5 +1,13 @@
 # MY CUSTOMIZATIONS FOR WINDOWS 10
 
+## Fonts for Terminal
+|                        |
+| :--------------------- |
+| ___MesloLGM NF___      |
+| ___Cascadia Code PL___ |
+| ___Hack___             |
+|                        |
+
 ## Code Editors of Choice
 |                      |
 | :------------------- |
@@ -14,6 +22,7 @@
 | ___Windows Terminal___       |
 | ___Powershell 7___           |
 | ___windows command prompt___ |
+| ___zsh___                    |
 |                              |
 
 ## Music Player of Choice

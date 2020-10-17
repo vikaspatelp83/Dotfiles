@@ -1,5 +1,6 @@
 # Set default prompt : 
 
+* Set font to  `Cascadia Code PL` or &nbsp;`MesloLGM NF`   
 * Create an environment variable `PROMPT` and set the value to :  
 
 ## Prompt 1  

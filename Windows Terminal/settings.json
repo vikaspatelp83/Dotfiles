@@ -1,6 +1,9 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
+  // Command Prompt
   "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+  // WSL Terminal
+  // "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
   "requestedTheme": "dark",
   "initialRows": 20,
   "initialCols": 80,
@@ -21,11 +24,11 @@
       "cursorHeight": 15,
       "cursorShape": "vintage",
       "commandline": "cmd.exe",
-      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Gradient\\Wallhaven\\pexels-photo-1567069.png",
-      // "backgroundImageOpacity": 0.5,
-      "fontFace": "MesloLGM NF",
+      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
+      "backgroundImageOpacity": 0.2,
+      "fontFace": "MesloLGS NF",
+      "fontWeight": "extra-bold",
       "fontSize": 14,
-      "fontWeight": "bold",
       "acrylicOpacity": 0.8,
       "useAcrylic": true,
       "closeOnExit": true,
@@ -41,92 +44,72 @@
       "snapOnInput": true,
       "cursorColor": "#bc15e5",
       "cursorShape": "vintage",
-      "backgroundImage": "G:\\PICTURES\\wallpapers\\Gradient\\Wallhaven\\wallhaven-od87p9_3840x2160.png",
       "backgroundImageOpacity": 0.5,
-      "fontFace": "MesloLGM NF",
+      "fontFace": "MesloLGS NF",
+      "fontWeight": "black",
       "fontSize": 15,
       "acrylicOpacity": 0.6,
       "useAcrylic": true,
       "closeOnExit": true,
-      "padding": "0, 0, 0, 0",
+      "padding": "5, 5, 0, 0",
       "source": "Windows.Terminal.PowershellCore"
     },
     {
-      "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-      "hidden": true,
-      "name": "Ubuntu 20.04",
-      "colorScheme": "Dracula",
-      "historySize": 9001,
-      "snapOnInput": true,
-      "cursorColor": "#c115e4",
-      "cursorShape": "vintage",
-      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Gradient\\Wallhaven\\wallhaven-od87p9_3840x2160.png",
-      // "backgroundImageOpacity": 0.5,
-      "fontFace": "MesloLGM NF",
-      "fontSize": 15,
-      "acrylicOpacity": 0.6,
-      "useAcrylic": true,
-      "closeOnExit": true,
-      "padding": "0, 0, 0, 0",
-      "source": "Windows.Terminal.Wsl"
-    },
-    {
+      "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
       "startingDirectory": "C:/Users/LENOVO/Desktop",
-      "tabTitle": "Git Bash",
-      "acrylicOpacity": 0.75,
-      "closeOnExit": true,
-      "colorScheme": "Dracula",
       "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+      "tabTitle": "Git Bash",
+      "name": "Git Bash",
+      "icon": "ms-appdata:///roaming/git_bash.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.75,
+      "colorScheme": "Dracula",
       "cursorColor": "#FFFFFF",
       "cursorShape": "vintage",
-      "fontFace": "MesloLGM NF",
-      "fontSize": 14,
+      "fontFace": "MesloLGS NF",
       "fontWeight": "bold",
-      "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
+      "fontSize": 15,
+      "padding": "5, 5, 0, 0",
       "historySize": 9001,
-      "icon": "ms-appdata:///roaming/git_bash.png",
-      "name": "Git Bash",
-      "padding": "0, 0, 0, 0",
-      "snapOnInput": true,
-      "useAcrylic": true
+      "closeOnExit": true,
+      "snapOnInput": true
     },
     {
       "startingDirectory": "C:/Users/LENOVO/Desktop",
       "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
       "name": "Windows Powershell",
+      "commandline": "powershell.exe",
       "hidden": true,
-      // "background": "#012456",
       "colorScheme": "Dracula",
       "historySize": 9001,
       "snapOnInput": true,
       "cursorColor": "#FFFFFF",
       "cursorShape": "bar",
-      "commandline": "powershell.exe",
-      "fontFace": "Meslo LG M NF",
+      "fontFace": "MesloLGS NF",
       "fontSize": 16,
       "acrylicOpacity": 0.75,
       "useAcrylic": true,
       "closeOnExit": false,
-      "padding": "0, 0, 0, 0"
+      "padding": "5, 5, 0, 0"
     },
     {
-      "startingDirectory": "D:/Python Projects/DJango_apps/ecommerceApp",
-      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff66bf}",
-      "name": "Shell in Lorbic",
-      "hidden": true,
-      // "background": "#012456",
-      "colorScheme": "Dracula",
+      "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      "hidden": false,
+      "name": "Ubuntu-20.04",
       "historySize": 9001,
       "snapOnInput": true,
-      "cursorColor": "#FFFFFF",
-      "cursorShape": "bar",
-      "commandline": "powershell.exe",
-      "fontFace": "Meslo LG M NF",
-      "fontSize": 16,
-      "acrylicOpacity": 0.75,
+      "colorScheme": "DraculaUB",
+      "cursorShape": "vintage",
+      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
+      "backgroundImageOpacity": 0.2,
+      "fontFace": "MesloLGS NF",
+      "fontWeight": "bold",
+      "fontSize": 15,
+      "acrylicOpacity": 0.8,
       "useAcrylic": true,
-      "closeOnExit": false,
-      "padding": "0, 0, 0, 0"
+      "closeOnExit": true,
+      "padding": "0, 0, 0, 0",
+      "source": "Windows.Terminal.Wsl"
     },
     {
       "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
@@ -145,25 +128,6 @@
       "hidden": false,
       "name": "PowerShell",
       "source": "Windows.Terminal.PowershellCore"
-    },
-    {
-      "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-      "hidden": false,
-      "name": "Ubuntu-20.04",
-      "historySize": 9001,
-      "snapOnInput": true,
-      "colorScheme": "DraculaUB",
-      "cursorShape": "vintage",
-      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Gradient\\Wallhaven\\wallhaven-od87p9_3840x2160.png",
-      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
-      "backgroundImageOpacity": 0.1,
-      "fontFace": "MesloLGM NF",
-      "fontSize": 15,
-      "acrylicOpacity": 0.6,
-      "useAcrylic": true,
-      "closeOnExit": true,
-      "padding": "0, 0, 0, 0",
-      "source": "Windows.Terminal.Wsl"
     }
   ],
   "schemes": [
@@ -472,12 +436,12 @@
     }
   ]
   /*
-      You can set it to the following cursors:
-  
-          bar
-          emptyBox
-          filledBox
-          underScore
-          vintage
-      */
+    You can set it to the following cursors:
+
+        bar
+        emptyBox
+        filledBox
+        underScore
+        vintage
+    */
 }

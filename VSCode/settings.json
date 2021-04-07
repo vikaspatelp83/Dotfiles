@@ -1,0 +1,135 @@
+{
+  "extensions.ignoreRecommendations": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "editor.fontFamily": "'Cascadia Code PL',  Hack, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 20,
+  "window.titleSeparator": " : ",
+  "terminal.integrated.fontSize": 18,
+  "python.pythonPath": "F:\\softwares\\Miniconda3\\python.exe",
+  "code-runner.executorMapByFileExtension": {
+    "javascript": "node",
+    "python": "python3",
+    "dart": "dart ",
+    "html": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && clang $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && clang++ -O2 -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "editor.cursorWidth": 6,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "newUntitledFile",
+  "[cpp]": {},
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.languageServer": "Pylance",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  // "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  "[html]": {
+    "breadcrumbs.showBooleans": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "git.autofetch": true,
+  "code-runner.runInTerminal": true,
+  "codespaces.accountProvider": "GitHub",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.condaPath": "F:\\softwares\\Anaconda3\\condabin",
+  "files.associations": {
+    "*.py": "python",
+    "*.jsx": "javascriptreact",
+    ".ejs": "html"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "python.showStartPage": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitDisabledWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+    // "suppressSupportGitLensNotification": false
+  },
+  "gitlens.codeLens.authors.enabled": true,
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "terminal.integrated.fontWeight": 600,
+  "terminal.integrated.localEchoStyle": "#ff5533",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.wordBasedSuggestions": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dracula",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": false,
+  "python.formatting.blackArgs": ["--line-length 120"],
+  "python.formatting.provider": "black",
+  // "python.formatting.blackArgs": ["--line-length", "120"],
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402,F841,W191,E305,E302"
+  ],
+  "advancedNewFile.exclude": {},
+  "auto-close-tag.SublimeText3Mode": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "prettier.jsxBracketSameLine": true,
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "html.format.contentUnformatted": "wbr,%",
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "workbench.colorCustomizations": {},
+  "settingsSync.ignoredExtensions": []
+}

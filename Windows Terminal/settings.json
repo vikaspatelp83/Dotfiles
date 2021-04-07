@@ -21,15 +21,18 @@
       "historySize": 9001,
       "snapOnInput": true,
       "cursorColor": "#17ffe4",
-      "cursorHeight": 15,
+      "background": "#0c0c0c",
+      "foreground": "#e06f24",
+      "cursorHeight": 14,
       "cursorShape": "vintage",
       "commandline": "cmd.exe",
-      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
-      "backgroundImageOpacity": 0.2,
+      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
+      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\bgforterminal2.png",
+      // "backgroundImageOpacity": 0.3,
       "fontFace": "MesloLGS NF",
       "fontWeight": "extra-bold",
       "fontSize": 14,
-      "acrylicOpacity": 0.8,
+      "acrylicOpacity": 0.9,
       "useAcrylic": true,
       "closeOnExit": true,
       "padding": "5, -5, 0, 5"
@@ -39,17 +42,18 @@
       "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
       "hidden": false,
       "name": "PowerShell",
+      "tabTitle": "Powershell",
       "colorScheme": "Dracula",
       "historySize": 9001,
       "snapOnInput": true,
       "cursorColor": "#bc15e5",
       "cursorShape": "vintage",
-      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
-      "backgroundImageOpacity": 0.5,
+      //   "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\bgforterminal2.png",
+      //   "backgroundImageOpacity": 0.2,
       "fontFace": "MesloLGS NF",
       "fontWeight": "black",
       "fontSize": 15,
-      "acrylicOpacity": 0.6,
+      "acrylicOpacity": 0.7,
       "useAcrylic": true,
       "closeOnExit": true,
       "padding": "5, 5, 0, 0",
@@ -62,6 +66,9 @@
       "tabTitle": "Git Bash",
       "name": "Git Bash",
       "icon": "ms-appdata:///roaming/git_bash.png",
+      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\bgforterminal2.png",
+      //   "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
+      //   "backgroundImageOpacity": 0.2,
       "useAcrylic": true,
       "acrylicOpacity": 0.75,
       "colorScheme": "Dracula",
@@ -69,11 +76,31 @@
       "cursorShape": "vintage",
       "fontFace": "MesloLGS NF",
       "fontWeight": "bold",
-      "fontSize": 15,
+      "fontSize": 14,
       "padding": "5, 5, 0, 0",
       "historySize": 9001,
       "closeOnExit": true,
       "snapOnInput": true
+    },
+    {
+      "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      "hidden": false,
+      "name": "Ubuntu-20.04",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "colorScheme": "DraculaUB",
+      "cursorShape": "vintage",
+      // "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
+      //   "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\bgforterminal2.png",
+      //   "backgroundImageOpacity": 0.2,
+      "fontFace": "MesloLGS NF",
+      "fontWeight": "bold",
+      "fontSize": 14,
+      "acrylicOpacity": 0.8,
+      "useAcrylic": true,
+      "closeOnExit": true,
+      "padding": "0, 0, 0, 0",
+      "source": "Windows.Terminal.Wsl"
     },
     {
       "startingDirectory": "C:/Users/LENOVO/Desktop",
@@ -87,30 +114,13 @@
       "cursorColor": "#FFFFFF",
       "cursorShape": "bar",
       "fontFace": "MesloLGS NF",
-      "fontSize": 16,
-      "acrylicOpacity": 0.75,
+      "fontSize": 14,
+      //   "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\bgforterminal.png",
+      //   "backgroundImageOpacity": 0.5,
+      "acrylicOpacity": 0.7,
       "useAcrylic": true,
       "closeOnExit": false,
       "padding": "5, 5, 0, 0"
-    },
-    {
-      "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-      "hidden": false,
-      "name": "Ubuntu-20.04",
-      "historySize": 9001,
-      "snapOnInput": true,
-      "colorScheme": "DraculaUB",
-      "cursorShape": "vintage",
-      "backgroundImage": "G:\\PICTURES\\wallpapers\\Anime\\88girl1.png",
-      "backgroundImageOpacity": 0.2,
-      "fontFace": "MesloLGS NF",
-      "fontWeight": "bold",
-      "fontSize": 15,
-      "acrylicOpacity": 0.8,
-      "useAcrylic": true,
-      "closeOnExit": true,
-      "padding": "0, 0, 0, 0",
-      "source": "Windows.Terminal.Wsl"
     },
     {
       "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
@@ -437,12 +447,12 @@
     }
   ]
   /*
-    You can set it to the following cursors:
-
-        bar
-        emptyBox
-        filledBox
-        underScore
-        vintage
-    */
+	  You can set it to the following cursors:
+  
+		  bar
+		  emptyBox
+		  filledBox
+		  underScore
+		  vintage
+	  */
 }
